@@ -167,53 +167,10 @@ section h3{
     text-shadow: black 4px 4px 10px;
 }
 
-.section_noticias{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-around;
-    margin-bottom: 3rem;
-    font-size: 2.6rem;
-    color: #b10f2e;
-}
-
-.section_noticias1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 0.1rem solid #b10f2e;
-    padding: 2rem;;
-}
-
-.section_noticias2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 0.1rem solid #b10f2e;
-    padding: 2rem;
-}
-
-.section_noticias3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 0.1rem solid #b10f2e;
-    padding: 2rem;
-}
-
-.section_noticias4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 0.1rem solid #b10f2e;
-    padding: 2rem;
-}
-
-.section_noticias5{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 0.1rem solid #b10f2e;
-    padding: 2rem;
+.fondo-noticiasD{
+    background-color: #393D3F;
+    color:#edf2f4;
+    font-size: 1.5rem;
 }
 
 .section_espectaculos{
