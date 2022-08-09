@@ -35,7 +35,7 @@ body{
     
 }
 
-.nav_titulos h1{
+.nav_titulos a{
     font-family: 'Cinzel', serif;
     font-size: 5rem;
     color: #98001C;
@@ -360,3 +360,32 @@ a{
 
    
 } 
+
+
+
+.h1-section-suscribite{
+    font-family: 'Cinzel', serif;
+    font-size: 5rem;
+    color: #98001C;
+    text-align:center;
+    text-shadow: black 1px 1px 1px;
+    margin-bottom: 3rem;
+}
+
+.form-suscribite{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.btn-suscribite{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    font-size: 5rem;
+}
+
+.container12{
+    margin-bottom: 5rem;
+    }
+
