@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styleSheet.css">
     <script src="https://kit.fontawesome.com/5220b5f424.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +33,7 @@
     <main>
         <h2 class="animate__animated animate__zoomIn">Noticias Del Día</h2>
         <div class="main_grid">
-            <div class="main_grid_item1">
+            <div class="main_grid_item1 animate__animated animate__slideInUp">
                 <img src="./img.png" alt="">
                 <p>Titulo de noticia</p>
                 <p>Descripcion De La Noticia:
@@ -40,13 +41,13 @@
                     elit. 
                 </p>
             </div>
-            <div class="main_grid_item2">
+            <div class="main_grid_item2 animate__animated animate__slideInUp">
                 <p>Titulo de la noticia destacada: 
                     Descripcion De La Noticia:
                     Lorem ipsum dolor sit amet</p>
                 <img src="./img.png" alt="">
             </div>
-            <div class="main_grid_item3">
+            <div class="main_grid_item3 animate__animated animate__slideInUp">
                 <img src="./img.png" alt="">
                 <p>Titulo de noticia</p>
                 <p>Descripcion De La Noticia:
@@ -54,7 +55,7 @@
                     elit. Officia, expedita fuga liber 
                 </p>
             </div>
-            <div class="main_grid_item4">
+            <div class="main_grid_item4 animate__animated animate__slideInUp">
                 <img src="./img.png" alt="">
                 <p>Titulo de noticia</p>
                 <p>Descripcion De La Noticia:
@@ -62,7 +63,7 @@
                     elit. Officia, expedita 
                 </p>
             </div>
-            <div class="main_grid_item5">
+            <div class="main_grid_item5 animate__animated animate__slideInUp">
                 <img src="./img.png" alt="">
                 <p>Titulo de noticia</p>
                 <p>Descripcion De La Noticia:
@@ -71,10 +72,9 @@
             </div>     
         </div>
     </main>
-    <section>
-        <h3>Noticias Deportivas</h3>
-        <div class="container">
-            <div class="row ">
+    <section class="container section-deportes">
+        <h3 data-aos="zoom-in">Noticias Deportivas</h3>
+            <div class="row" data-aos="fade-right" data-aos-duration="1000">
                 <div class="card col-lg-2 col-md-4 col-sm-6 fondo-noticiasD" >
                     <img src="./img.png" class="card-img-top" alt="...">
                     <div class="card-body ">
@@ -123,11 +123,10 @@
                       <a href="#" class="btn btn-primary btn-light">Ir a la Noticia</a>
                     </div>
                 </div>
-            </div>
-        </div>    
+            </div>    
     </section>
     <section class="section_espectaculos">
-        <h4>Noticias De Espectaculos</h4>
+        <h4 data-aos="zoom-in">Noticias De Espectaculos</h4>
         <div class="espectaculos_grid">
             <div class="espectaculos_item1">
             <p>Titulo de Noticia</p>
@@ -201,5 +200,9 @@
         </div>    
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
