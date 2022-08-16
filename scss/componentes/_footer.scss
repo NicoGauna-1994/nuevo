@@ -1,0 +1,30 @@
+.pie{
+    border-top: 0.3rem solid black;
+    color: $colorRojo2;
+    background-color: $colorFondoOscuro;
+    a{
+        text-decoration: none;
+        color: $colorRojo2;
+        &:hover{
+            color: lighten($colorRojo2, 20%);
+        }
+    }
+    .pie_arriba{
+        display: flex;
+        justify-content: space-between;
+        font-size: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        border-bottom: 0.1rem solid $colorBlanco;
+        font-family: 'Cinzel', serif;
+        text-shadow: black 2px 2px 4px;
+    }
+    .pie_abajo{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.8rem;
+        padding: 0.5rem;
+        text-shadow: black 2px 2px 4px;
+    }
+}
+

@@ -1,0 +1,57 @@
+section{
+    h1{
+        font-family: $FuenteTitulos;
+        font-size: 5rem;
+        color: $colorRojo2;
+        text-align:center;
+        text-shadow: $sombrasTxt;
+        margin-bottom: 3rem;
+    }
+
+    div{
+        margin-bottom: 5rem;
+    
+    }
+}
+
+
+.centrarForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    form{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        font-family: $FuenteTitulos;
+    }
+    .btn-suscribite{
+        display: flex;
+        justify-content: center;
+        height: 3rem;
+        font-size: 5rem;
+        .btn{
+            &:hover{
+                background-color: $colorRojo1;
+                color: $colorBlanco;
+            }
+        }
+    }
+    @media screen and (max-width:768px){
+        order: -1;
+    }
+}
+
+.container12{
+    @media screen and (max-width:768px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.form-suscribite div, fieldset{
+    @media screen and (max-width:768px){
+        display: flex;
+        flex-direction: column;
+    }
+}

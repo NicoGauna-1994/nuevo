@@ -1,0 +1,35 @@
+.section_espectaculos{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    color: $colorFondoOscuro;
+    h4{
+        font-size: 5rem;
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        font-family: $FuenteTitulos;
+        text-shadow: black 4px 4px 10px;
+    }
+}
+
+.espectaculos_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto 2rem;
+    background-color: $colorFondoOscuro;
+    text-align: center;
+    color: $colorBlanco;
+    .espectaculos_item1, .espectaculos_item2, .espectaculos_item3, .espectaculos_item4, .espectaculos_item5, .espectaculos_item6{
+        display: grid;
+        font-size: 2.5rem;
+        justify-items: center;
+        align-items: stretch;
+        border: solid 2rem $colorBlanco;
+        padding: 1rem;
+    }
+    @media screen and (max-width:768px){
+        display: flex;
+        flex-flow: column;
+    }
+}

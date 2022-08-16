@@ -1,0 +1,60 @@
+.nav_css{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 0.3rem black;
+    padding:1rem;
+    margin-bottom: 5rem;
+    background-color: $colorFondoOscuro
+}
+
+.nav_titulos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-shadow: $sombrasTxt;
+    a{
+        font-family: 'Cinzel', serif;
+        font-size: 5rem;
+        color: $colorRojo1;
+    }
+    p{
+        font-size: 1.5rem;
+        margin: 2.5rem;
+        color: $colorRojo1;
+    }
+}
+
+.nav_titulos2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        font-size: 1.5rem;
+        margin-left: 7rem;
+        color: $colorRojo1;
+        text-shadow: $sombrasTxt;
+    }
+} 
+
+.nav_buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    .btn1{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        &:hover{
+            background-color: $colorRojo1;
+            color: $colorBlanco;
+        }
+    }
+    .btn2{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        margin: auto 2rem;
+        &:hover{
+            background-color: $colorRojo1;
+            color: $colorBlanco;
+        }
+    }
+}
