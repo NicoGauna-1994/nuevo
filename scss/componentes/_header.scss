@@ -13,11 +13,13 @@
     justify-content: space-between;
     align-items: center;
     text-shadow: $sombrasTxt;
+
     a{
-        font-family: 'Cinzel', serif;
+        @include titulos;
         font-size: 5rem;
-        color: $colorRojo1;
+        
     }
+
     p{
         font-size: 1.5rem;
         margin: 2.5rem;

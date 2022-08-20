@@ -1,20 +1,24 @@
 .section-deportes{
+
     margin-bottom: 3rem;
-    h3{
+
+    h3{ 
         font-size: 5rem;
         display: flex;
         justify-content: center;
         padding: 1rem;
-        color: $colorFondoOscuro;
-        font-family: 'Cinzel', serif;
         text-shadow: black 4px 4px 10px;
+        @include titulos;
     }
+
 }
 
 .fondo-noticiasD{
+
     background-color: $colorFondoOscuro;
     color:$colorBlanco;
     font-size: 1.5rem;
+
     .btn{
         &:hover{
             background-color: $colorRojo1;

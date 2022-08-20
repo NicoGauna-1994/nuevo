@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,23 +15,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
+
+
+    <!-- barra de navegacion que contiene los titulos y botones  -->
     <header>
+
         <nav class="nav_css">
+            
             <div class="nav_titulos">
-                <a href="./index.html">Diario Digital</a>
+                <h1>
+                    <a href="./index.html">Diario Digital</a>
+                </h1>
                 <p>21 de Octubre 2015</p>
             </div>
+
             <div class="nav_titulos2">
                 <p>El Mejor Diario Digital De Internet</p>
                 <div class="nav_buttons">
                     <button type="button" class="btn btn-light btn1">Iniciar Sesión</button>
                     <a href="./sections/suscribite.html" class="btn btn-light btn2">Suscribite</a>
                 </div>
-            </div>            
+            </div>    
+
         </nav>
+
     </header>
+
+
+    <!-- grid contenedor de el sector de noticias principales del siio -->
     <main>
+
         <h2 class="animate__animated animate__zoomIn">Noticias Del Día</h2>
+        
         <div class="main_grid">
             <div class="main_grid_item1 animate__animated animate__slideInUp">
                 <img src="./img.png" alt="">
@@ -41,12 +56,14 @@
                     elit. 
                 </p>
             </div>
+
             <div class="main_grid_item2 animate__animated animate__slideInUp">
                 <p>Titulo de la noticia destacada: </p>
                 <p>Descripcion De La Noticia Lorem ipsum dolor sit amet
                     ipsum dolor sit ametipsum dolor </p>
                 <img src="./img.png" alt="">
             </div>
+
             <div class="main_grid_item3 animate__animated animate__slideInUp">
                 <img src="./img.png" alt="">
                 <p>Titulo de noticia</p>
@@ -55,6 +72,7 @@
                     elit. Officia, expedita fuga liber 
                 </p>
             </div>
+
             <div class="main_grid_item4 animate__animated animate__slideInUp">
                 <img src="./img.png" alt="">
                 <p>Titulo de noticia</p>
@@ -63,6 +81,7 @@
                     elit. Officia, expedita 
                 </p>
             </div>
+            
             <div class="main_grid_item5 animate__animated animate__slideInUp">
                 <img src="./img.png" alt="">
                 <p>Titulo de noticia</p>
@@ -71,10 +90,17 @@
                 </p>
             </div>     
         </div>
+
     </main>
+
+
+    <!-- tarjetas de bootstrap para sector de noticias deportivas -->
     <section class="container section-deportes">
+
         <h3 data-aos="zoom-in">Noticias Deportivas</h3>
+        
             <div class="row" data-aos="fade-right" data-aos-duration="1000">
+                
                 <div class="card col-lg-2 col-md-4 col-sm-6 fondo-noticiasD" >
                     <img src="./img.png" class="card-img-top" alt="...">
                     <div class="card-body ">
@@ -83,6 +109,7 @@
                       <a href="#" class="btn btn-primary btn-light">Ir a la Noticia</a>
                     </div>
                 </div>
+
                 <div class="card col-lg-2 col-md-4 col-sm-6 fondo-noticiasD" >
                     <img src="./img.png" class="card-img-top" alt="...">
                     <div class="card-body ">
@@ -91,6 +118,7 @@
                       <a href="#" class="btn btn-primary btn-light">Ir a la Noticia</a>
                     </div>
                 </div>
+
                 <div class="card col-lg-2 col-md-4 col-sm-6 fondo-noticiasD" >
                     <img src="./img.png" class="card-img-top" alt="...">
                     <div class="card-body ">
@@ -99,6 +127,7 @@
                       <a href="#" class="btn btn-primary btn-light">Ir a la Noticia</a>
                     </div>
                 </div>
+
                 <div class="card col-lg-2 col-md-4 col-sm-6 fondo-noticiasD" >
                     <img src="./img.png" class="card-img-top" alt="...">
                     <div class="card-body ">
@@ -107,6 +136,7 @@
                       <a href="#" class="btn btn-primary btn-light">Ir a la Noticia</a>
                     </div>
                 </div>
+
                 <div class="card col-lg-2 col-md-4 col-sm-6 fondo-noticiasD" >
                     <img src="./img.png" class="card-img-top" alt="...">
                     <div class="card-body ">
@@ -115,6 +145,7 @@
                       <a href="#" class="btn btn-primary btn-light">Ir a la Noticia</a>
                     </div>
                 </div>
+
                 <div class="card col-lg-2 col-md-4 col-sm-6 fondo-noticiasD" >
                     <img src="./img.png" class="card-img-top" alt="...">
                     <div class="card-body ">
@@ -123,86 +154,114 @@
                       <a href="#" class="btn btn-primary btn-light">Ir a la Noticia</a>
                     </div>
                 </div>
-            </div>    
+
+            </div>  
+
     </section>
+
+
+    <!-- grid para sector de noticias espectaculos -->
     <section class="section_espectaculos">
+
         <h4 data-aos="zoom-in">Noticias De Espectaculos</h4>
+
         <div class="espectaculos_grid">
+
             <div class="espectaculos_item1">
-            <p>Titulo de Noticia</p>
-            <img src="./img.png" alt="">
-            <p>
-                Descripcion de la Noticia: Lorem ipsum dolor sit amet 
-                consectetur adipisicing  
-            </p>
-        </div>
-        <div class="espectaculos_item2">
-            <p>Titulo de Noticia</p>
-            <img src="./img.png" alt="">
-            <p>
-                Descripcion de la Noticia: Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit.
-            </p>
-        </div>
-        <div class="espectaculos_item3">
-            <p>Titulo de Noticia</p>
-            <img src="./img.png" alt="">
-            <p>
-                Descripcion de la Noticia: Lorem ipsum dolor 
-            </p>
-        </div>
-        <div class="espectaculos_item4">
-            <p>Titulo de Noticia</p>
-            <img src="./img.png" alt="">
-            <p>
-                Descripcion de la Noticia: Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Obcaecati volu
-            </p>
-        </div>
-        <div class="espectaculos_item5">
-            <p>Titulo de Noticia</p>
-            <img src="./img.png" alt="">
-            <p>
-                Descripcion de la Noticia: Lorem ipsum dolor sit amet 
-                consectetur 
-            </p>
-        </div>
-        <div class="espectaculos_item6">
-            <p>Titulo de Noticia</p>
-            <img src="./img.png" alt="">
-            <p>
-                Descripcion de la Noticia: Lorem ipsum dolor sit amet 
-                consectetur adipisicing 
-            </p>
-        </div>
-        </div>    
+                <p>Titulo de Noticia</p>
+                <img src="./img.png" alt="">
+                <p>
+                    Descripcion de la Noticia: Lorem ipsum dolor sit amet 
+                    consectetur adipisicing  
+                </p>
+            </div>
+
+            <div class="espectaculos_item2">
+                <p>Titulo de Noticia</p>
+                <img src="./img.png" alt="">
+                <p>
+                    Descripcion de la Noticia: Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit.
+                </p>
+            </div>
+
+            <div class="espectaculos_item3">
+                <p>Titulo de Noticia</p>
+                <img src="./img.png" alt="">
+                <p>
+                    Descripcion de la Noticia: Lorem ipsum dolor 
+                </p>
+            </div>
+
+            <div class="espectaculos_item4">
+                <p>Titulo de Noticia</p>
+                <img src="./img.png" alt="">
+                <p>
+                    Descripcion de la Noticia: Lorem ipsum dolor sit amet 
+                    consectetur adipisicing elit. Obcaecati volu
+                </p>
+            </div>
+
+            <div class="espectaculos_item5">
+                <p>Titulo de Noticia</p>
+                <img src="./img.png" alt="">
+                <p>
+                    Descripcion de la Noticia: Lorem ipsum dolor sit amet 
+                    consectetur 
+                </p>
+            </div>
+            
+            <div class="espectaculos_item6">
+                <p>Titulo de Noticia</p>
+                <img src="./img.png" alt="">
+                <p>
+                    Descripcion de la Noticia: Lorem ipsum dolor sit amet 
+                    consectetur adipisicing 
+                </p>
+            </div>
+
+        </div>  
+
     </section>
+
+
+    <!-- sector de footer con enlaces -->
     <footer class="pie">
+
         <div class="pie_arriba">
+
             <div class="pie_iconos">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-square-twitter"></i>
                 <i class="fa-brands fa-youtube"></i>
                 <i class="fa-brands fa-square-whatsapp"></i>
             </div>
+
             <div>
                 <a href="./index.html">Diario Digital</a>
             </div>
+
             <div>
                 <a href="./sections/suscribite.html">-Suscribite-</a>
             </div>
+
         </div>
+
         <div class="pie_abajo">
             <p>Todos los Derechos reservados</p>
             <p>politica de privacidad</p>
             <p>Terminos y condiciones</p>
             <p>©2015-2022 www.diariodigital.com</p>
-        </div>    
+        </div> 
+
     </footer>
+
+    <!-- scripts para animaciones -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
       </script>
+
 </body>
 </html>
