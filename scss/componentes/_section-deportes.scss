@@ -3,12 +3,12 @@
     margin-bottom: 3rem;
 
     h3{ 
+        @include titulos;
         font-size: 5rem;
         display: flex;
         justify-content: center;
         padding: 1rem;
         text-shadow: black 4px 4px 10px;
-        @include titulos;
     }
 
 }

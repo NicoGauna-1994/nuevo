@@ -29,12 +29,12 @@ main{
         display: grid;
         font-size: 4rem;
         justify-items: center;  
-        padding: 1rem;
         text-align: center;
         align-items: stretch;
         align-content: flex-start;
         color: $colorRojo2;
-        border: solid 0.1rem black;
+        border: map-get($grid-border, border);
+        padding: map-get($grid-border , padding);
 
         @media screen and (max-width:768px){
             order: -1;
@@ -46,6 +46,9 @@ main{
     .main_grid_item1, .main_grid_item3, .main_grid_item4, .main_grid_item5{
     
         @extend %main-grids;
+
+        border: map-get($grid-border, border);
+        padding: map-get($grid-border , padding);
 
         background-color: $colorFondoOscuro;
         color: $colorBlanco;

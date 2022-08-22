@@ -1,5 +1,7 @@
-@import './base/formato-del-sitio.scss';
 @import './base/variable';
+@import './base/formato-del-sitio.scss';
+@import './componentes/mixins';
+@import './componentes/maps';
 @import './componentes/header.scss';
 @import './componentes/main.scss';
 @import './componentes/section-deportes';
@@ -7,4 +9,4 @@
 @import './componentes/footer';
 @import './componentes/pag-suscribite';
 @import './componentes/extend';
-@import './componentes/mixins';
+
