@@ -18,6 +18,9 @@
     a{
         @include titulos;
         font-size: 5rem;
+        &:hover{
+            color: lighten($colorRojo2, 20%);
+        }
     }
 
     p{

@@ -35,6 +35,9 @@ body {
   color: #b10f2e;
   font-size: 5rem;
 }
+.nav_titulos a:hover {
+  color: #ee385b;
+}
 .nav_titulos p {
   font-size: 1.5rem;
   margin: 2.5rem;
