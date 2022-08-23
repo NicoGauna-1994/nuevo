@@ -40,6 +40,13 @@ main{
             order: -1;
         }
     }
+
+    @media screen and (max-width:768px){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
 }
 
 
@@ -53,11 +60,6 @@ main{
         background-color: $colorFondoOscuro;
         color: $colorBlanco;
 
-        @media screen and (max-width:768px){
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
     }
 
 .animate__animated.animate__slideInUp{
