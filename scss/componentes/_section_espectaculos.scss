@@ -28,7 +28,7 @@
     background-color: $colorFondoOscuro;
     text-align: center;
     color: $colorBlanco;
-    align-items: center;
+    
 
     .espectaculos_item1, .espectaculos_item2, .espectaculos_item3, .espectaculos_item4, .espectaculos_item5, .espectaculos_item6{
       
@@ -40,7 +40,7 @@
 
         display: flex;
         flex-flow: column;
-        
+        align-items: center;
     }
 
 }

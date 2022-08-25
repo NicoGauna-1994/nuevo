@@ -50,17 +50,17 @@ main{
 }
 
 
-    .main_grid_item1, .main_grid_item3, .main_grid_item4, .main_grid_item5{
+.main_grid_item1, .main_grid_item3, .main_grid_item4, .main_grid_item5{
     
-        @extend %main-grids;
+    @extend %main-grids;
 
-        border: map-get($grid-border, border);
-        padding: map-get($grid-border , padding);
+    border: map-get($grid-border, border);
+    padding: map-get($grid-border , padding);
 
-        background-color: $colorFondoOscuro;
-        color: $colorBlanco;
+    background-color: $colorFondoOscuro;
+    color: $colorBlanco;
 
-    }
+}
 
 .animate__animated.animate__slideInUp{
 
