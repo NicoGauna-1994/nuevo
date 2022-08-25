@@ -85,6 +85,11 @@ body {
   color: #edf2f4;
 }
 @media screen and (max-width: 768px) {
+  .nav_buttons .btn2 {
+    border: solid 0.1rem black;
+  }
+}
+@media screen and (max-width: 768px) {
   .nav_buttons {
     display: flex;
     flex-direction: column;
@@ -373,6 +378,32 @@ main div {
 }
 .links-form-iniciar-sesion a:hover {
   color: #ee385b;
+}
+
+.textos-contra-nueva {
+  margin-bottom: 5rem;
+}
+.textos-contra-nueva p {
+  color: #393d3f;
+  font-size: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .textos-contra-nueva p {
+    font-size: 2rem;
+  }
+}
+
+.btn-enviar-enlace {
+  font-size: 1.5rem;
+  background-color: #b10f2e;
+  color: #edf2f4;
+}
+.btn-enviar-enlace:hover {
+  background-color: #ee385b;
+}
+
+.main-contra-nueva {
+  margin-bottom: 8rem;
 }
 
 /*# sourceMappingURL=styleSheet.css.map */

@@ -66,6 +66,10 @@
             background-color: $colorRojo1;
             color: $colorBlanco;
         }
+
+        @media screen and (max-width:768px){
+            border: map-get($grid-border, border);
+        }
     }
 
     @media screen and (max-width:768px){

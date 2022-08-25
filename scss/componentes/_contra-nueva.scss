@@ -1,0 +1,26 @@
+.textos-contra-nueva{
+    margin-bottom: 5rem;
+
+    p{
+        color: $colorFondoOscuro;
+        font-size: 3rem;
+
+        @media screen and (max-width:768px){
+            font-size: 2rem;
+        }
+    }
+
+}
+
+.btn-enviar-enlace{
+    font-size: 1.5rem;
+    background-color: $colorRojo2;
+    color: $colorBlanco;
+    &:hover{
+        background-color: lighten($colorRojo2, 20%);
+    }
+}
+
+.main-contra-nueva{
+    margin-bottom: 8rem;
+}
