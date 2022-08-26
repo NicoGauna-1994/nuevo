@@ -1,0 +1,61 @@
+.grid-nosotros{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+
+    .h1-nosotros{
+        font-size: 7rem;
+        grid-column: 1/3;
+
+        @media screen and (max-width:768px){
+            font-size: 2rem;
+        }
+    }
+
+    .div-texto-nosotros{
+
+        font-size: 3rem;
+        @media screen and (max-width:768px){
+            font-size: 1.5rem;
+        }
+
+    }
+
+    .iconos-nosotros{
+
+        font-size: 5rem;
+        color: $colorRojo2;
+        text-shadow: $sombrasTxt;
+
+    }
+
+    .video-nosotros{
+
+        @media screen and (max-width:768px){
+
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+
+        }
+
+        iframe{
+            @media screen and (max-width:768px){
+                position: absolute;
+                top:0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+            
+        }
+    }
+
+    @media screen and (max-width:768px){
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+}

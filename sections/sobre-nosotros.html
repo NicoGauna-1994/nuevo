@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styleSheet.css">
     <script src="https://kit.fontawesome.com/5220b5f424.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Cormorant+SC:wght@300&family=Edu+SA+Beginner:wght@400;600&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <meta name="keywords" content="contraseña, clave, recuperar, email, enviar enlace, contraseña por email, quiero recuperar mi cuenta,">
-    <meta name="description" content="recuperar la contraseña de mi cuenta, olvide mi contraseña, cambiar fontraseña de mi cuenta diario digital, cambiar contraseña con mail, iniciar sesion" >
-    <title>Diario Digital - Recuperá tu contraseña.</title>
+    <meta name="keywords" content="informacion, historia, acerca de, nosotros, carrera, creacion, ">
+    <meta name="description" content="acerca de nosotros, sobre nosotros, nuestra historia, quienes somos, que hacemos, de donde venimos, que hace diario digital, nuestras noticias" >
+    <title>Diario Digital - Un poco acerca de nosotros.</title>
     <link rel="icon" href="https://cdn.icon-icons.com/icons2/1603/PNG/512/news-newspaper-media-paper-press-article_108607.png">
-  </head>
+</head>
+
+
 <body>
 
     <header>
@@ -24,10 +26,10 @@
         <nav class="nav_css">
 
             <div class="nav_titulos">
-
-                <a href="../index.html">Diario Digital</a>
+                <h1>
+                    <a href="../index.html">Diario Digital</a>
+                </h1>
                 <p>21 de Octubre 2015</p>
-
             </div>
 
             <div class="nav_titulos2">
@@ -36,39 +38,50 @@
 
                 <div class="nav_buttons">
 
-                  <a href="../sections/iniciar-sesion.html" class="btn btn-light btn2">Iniciar Sesión</a>
-                  <a href="../sections/suscribite.html" class="btn btn-light btn2">Suscribite</a>
+                    <a href="../sections/iniciar-sesion.html" class="btn btn-light btn2">Iniciar Sesión</a>
+                    <a href="../sections/suscribite.html" class="btn btn-light btn2">Suscribite</a>
+
                 </div>
 
-            </div>        
+            </div>    
 
         </nav>
 
     </header>
 
-    <main class="main-contra-nueva">
-        <section class="textos-contra-nueva">
+<main class="grid-nosotros">
+    
+    <div class="h1-nosotros">
+        <h1 class="animate__animated animate__zoomIn">La historia del Diario Digital</h1>
+    </div>
 
-            <h1 class="animate__animated animate__zoomIn">Cambia tu contraseña</h1>
+    <div class="video-nosotros">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/n19hCwAoQyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-            <p class="p-section-contra-nueva">Decinos con que Email te suscribiste y te enviaremos un enlace para que puedas cambiarla.</p>
+    <div class="div-texto-nosotros">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus mollitia, voluptatum maxime consectetur, voluptate fugit magnam dolor dolore sit omnis modi, esse reiciendis! Voluptas expedita a dolore cum ducimus sit.
+            Vel eos consequatur consectetur culpa fugit eum delectus iste illum dolorum magnam eius rerum ut saepe iure sunt quibusdam, similique debitis a quae, natus impedit molestiae enim excepturi! Exercitationem.
+        </p>
 
-        </section>
-        
-        <div class="container col-lg-3 col-md-3 col-sm-6 centrarForm">
-            <form >
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Ingresa tu email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">Asegurate que sea el email con el que te suscribiste</div>
-                </div>
-                <button type="submit" class="btn btn-primary btn-enviar-enlace">Enviar enlace</button>
-              </form>
+        <div class="iconos-nosotros">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-whatsapp"></i> 
         </div>
-    </main>
+
+    </div>
 
     
-    <footer class="pie ">
+
+</main>
+
+
+
+
+    <footer class="pie">
         <div class="pie_arriba">
             <div class="pie_iconos">
                 <i class="fa-brands fa-facebook"></i>
@@ -86,13 +99,11 @@
         <div class="pie_abajo">
             <p>Todos los Derechos reservados</p>
             <p>politica de privacidad</p>
-            <a href="../sections/sobre-nosotros.html">Sobre Nosotros</a>
+            <a href="./sobre-nosotros.html">Sobre Nosotros</a>
             <p>©2015-2022 www.diariodigital.com</p>
         </div>    
     </footer>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
 
-
 </body>
+</html>

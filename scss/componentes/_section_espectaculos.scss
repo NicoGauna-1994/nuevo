@@ -13,6 +13,12 @@
         padding: 1rem;
         text-shadow: black 4px 4px 10px;
 
+        @media screen and (max-width:768px){
+            font-size: 3rem;
+        }
+
+        
+
     }
 
 }
@@ -32,8 +38,11 @@
 
     .espectaculos_item1, .espectaculos_item2, .espectaculos_item3, .espectaculos_item4, .espectaculos_item5, .espectaculos_item6{
       
-        @extend %grids-espectaculos
-
+        @extend %grids-espectaculos;
+        
+        @media screen and (max-width:768px){
+            border: none !important;
+        }
     }
 
     @media screen and (max-width:768px){
@@ -41,6 +50,8 @@
         display: flex;
         flex-flow: column;
         align-items: center;
+        
+        
     }
 
 }
